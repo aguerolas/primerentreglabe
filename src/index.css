@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+h4{
+  margin: 0;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: aliceblue;
+  padding: 20px;
+  width: min(400px, 80%);
+  box-shadow: 1px 1px 7px 0 #0009;
+  border-radius: 8px;
+  
+  position: relative;
+}
+p{
+  font-size: 0.8em;
+}
+h4{
+  font-size: 0.9em;
+}
+.card-btn{
+  display: block;
+  width: 50px;
+  border-radius: 50%; 
+  aspect-ratio: 1;
+  border: none;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 #000a;
+}
+.card-btn:active {
+  box-shadow: 0 0 0 0 #000a;
+  transition: box-shadow 200ms ease;
+}
